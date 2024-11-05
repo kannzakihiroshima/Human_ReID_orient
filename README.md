@@ -14,6 +14,9 @@
 6. 外観特徴量を基に人物判別のためのDNNを距離学習する.（損失関数 triplet Loss）(learn_DNN.ipynb)
 7. 距離学習モデルを用いて，OSNetから得た特徴量を変換する，（apply_model.ipynb）
 8. 7で出力された特徴量を基に最適輸送を使用して，トラックレット単位でギャラリーデータとクエリデータのベクトル空間上の距離を計算する．結果を用いて各トラックレットの人物ラベルを決定する(OT.ipynb)
+![スクリーンショット 2024-11-05 182027](https://github.com/user-attachments/assets/4e8a98e6-13f5-4cbf-ac76-73c5444ea8aa)
+
+![スクリーンショット 2024-11-05 182110](https://github.com/user-attachments/assets/ca836dd4-37bd-4105-bca8-3677ac8cfb5e)
 
 
 ![スクリーンショット 2024-11-05 180056](https://github.com/user-attachments/assets/0456ea19-9ab2-44b6-9e99-c3be6ac53283)
